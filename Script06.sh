@@ -1,1 +1,0 @@
-mariadb -u <_user_> --password=<_password_> -h <_Database Host IP Address_> <_Database Name_> -e "SELECT ipAddress from uninvitedActivity;" | grep -v ipAddress | awk -F"[ ,]" '{ print $1 }' | sort -uV > uninvitedActivity-Export.txt
