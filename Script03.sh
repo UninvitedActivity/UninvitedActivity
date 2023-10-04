@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# Version 1.0
-# Date: October 3rd 2023
+# Version 0.1
+# Date: October 4th 2023
 
 # Variable setup
 inputPrefix=$4

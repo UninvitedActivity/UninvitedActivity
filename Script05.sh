@@ -1,6 +1,6 @@
 
 # Version 0.1
-# Date: October 3rd 2023
+# Date: October 4th 2023
 
 
 awk -F"[,]" '{print "INSERT INTO `uninvitedActivity` (`activityDate`, `ipAddress`, `server`) VALUES ('\''"$1"'\'', '\''"$2"'\'', '\''"$3"'\'');"}' 20230928_DBImportReady.csv > ImportSQLCommands.sql
