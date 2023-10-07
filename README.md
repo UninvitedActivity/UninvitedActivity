@@ -25,6 +25,7 @@ I've learnt a few things and enjoyed the process so far, so it's almost successf
 - Setup of dummy mail server(s) to catch exclusively mail-scanning IP addresses
 - Grouping of large numbers of /24 IP Addresses into a /24 network ban rather than individual IP addresses
 - Explain some details about the OPNSense firewall rules
+- Record the IP / Port combination (for later consideration in pattern matching)
 
 # Traps
 - In a few short days, this exercise has managed to block:
