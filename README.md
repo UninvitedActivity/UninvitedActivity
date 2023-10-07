@@ -25,7 +25,11 @@ I've learnt a few things and enjoyed the process so far, so it's almost successf
 - Setup of dummy mail server(s) to catch exclusively mail-scanning IP addresses
 - Grouping of large numbers of /24 IP Addresses into a /24 network ban rather than individual IP addresses
 - Explain some details about the OPNSense firewall rules
+- Record the IP / Port combination (for later consideration in pattern matching)
 
 # Traps
-- I've already managed to lock myself out of a couple of VPS' that I run, so an allow list becomes a required aide to this kind of automated blocking
-- So far, this has blocked the occasional IP Address registered to Amazon, Cloudflare, Github, Google, and Microsoft (amongst other big names I'm sure). If nopthing else, this is an interesting exercise as a view into the chaos that is Internet traffic
+In a few short days, this exercise has managed to block:
+- Connections to a couple of VPS' that I run, so an allow list becomes a required aide to this kind of automated blocking (interesting how the IP addresses got on the list, requires further investigation)
+- Incoming VPN connections that I don't want to block - so the firewall is somehow picking up unwanted traffic from known-friendly IP addresses (also interesting how the IP addresses got on the list, requires further investigation)
+- The occasional IP Address registered to Akamai, Amazon, Cloudflare, Github, Google, and Microsoft. If nothing else, this is an interesting exercise as a view into the chaos that is Internet traffic.
+  - I've only had to unblock a couple of these, one was required for Chromecasting (35.186.224.35) and another for work VPN authentication
