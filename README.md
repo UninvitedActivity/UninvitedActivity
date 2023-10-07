@@ -31,4 +31,5 @@ I've learnt a few things and enjoyed the process so far, so it's almost successf
 - In a few short days, this exercise has managed to block:
   - Conections to a couple of VPS' that I run, so an allow list becomes a required aide to this kind of automated blocking
   - Incoming VPN connections that I don't want to block - so the firewall is somehow picking up unwanted traffic from known-friendly IP addresses (which is interestting in itself and requires further investigation)
-  - The occasional IP Address registered to Akamai, Amazon, Cloudflare, Github, Google, and Microsoft. If nothing else, this is an interesting exercise as a view into the chaos that is Internet traffic
+  - The occasional IP Address registered to Akamai, Amazon, Cloudflare, Github, Google, and Microsoft. If nothing else, this is an interesting exercise as a view into the chaos that is Internet traffic.
+    - I've only had to unblock a couple of these, one was required for Chromecasting (35.186.224.35) and another for work VPN authentication
