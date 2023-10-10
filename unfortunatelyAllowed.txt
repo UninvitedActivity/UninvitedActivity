@@ -1,0 +1,4 @@
+157.240.8.35		# Facebook won't load if this is blocked. I don't like it, but the household dictates
+142.250.70.238		# Google Drive doesn't work without allow listing this IP address
+35.186.224.35		# Chromecasting doesn't work without allow listing this IP address
+61.68.31.78		# Work VPN doesn't work without allow listing this IP address
