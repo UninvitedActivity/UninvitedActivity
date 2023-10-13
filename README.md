@@ -33,3 +33,6 @@ In a few short days, this exercise has managed to block:
 - Incoming VPN connections that I don't want to block - so the firewall is somehow picking up unwanted traffic from known-friendly IP addresses (also interesting how the IP addresses got on the list, requires further investigation)
 - The occasional IP Address registered to Akamai, Amazon, Cloudflare, Github, Google, and Microsoft. If nothing else, this is an interesting exercise as a view into the chaos that is Internet traffic.
   - I've only had to unblock a couple of these, one was required for Chromecasting (35.186.224.35) and another for work VPN authentication
+
+# Observations
+- IP Addresses that are connecting to random ports are almost mutually exlusive from IP addresses that are specifically connecting to Mail Server ports
