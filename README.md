@@ -35,4 +35,4 @@ In a few short days, this exercise has managed to block:
   - I've only had to unblock a couple of these, one was required for Chromecasting (35.186.224.35) and another for work VPN authentication
 
 # Observations
-- IP Addresses that are connecting to random ports are almost mutually exlusive from IP addresses that are specifically connecting to Mail Server ports
+- IP Addresses that are connecting to random ports are almost mutually exlusive from IP addresses that are specifically connecting to email server ports.
