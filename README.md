@@ -36,4 +36,4 @@ In a few short days, this exercise has managed to block:
 
 # Observations
 - IP Addresses that are connecting to random ports are almost mutually exlusive from IP addresses that are specifically connecting to email server ports.
-  - Subjectively, this indicates to me that IP addresses associated with mail server probes are more 'dangerous': they are directed, not just randomly scanning everything. This makes these IP addresses more 'valuable' to block (I also understand that these IP addresses are likely to be drones in a botnet, and therefore not indicative of actual attackers, but I'd still consider blocking these IP addresses as more worthwhile than the IP address doing the random port probes.
+  - Subjectively, this indicates to me that IP addresses associated with mail server probes are more 'dangerous': they are directed, not just randomly scanning everything. This makes these IP addresses more valuable to block (I also understand that these IP addresses are likely to be drones in a botnet, and therefore not indicative of actual attackers, but I'd still consider blocking these IP addresses as more worthwhile than those doing random port probes.
