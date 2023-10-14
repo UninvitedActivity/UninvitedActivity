@@ -17,7 +17,6 @@ I've learnt a few things and enjoyed the process so far, so it's almost successf
 
 # Future considerations
 
-- Narrow down an interval that's suitable: Currently hourly
 - Updating of date stamp of continued activity by IP Addresses that are already in the system
 - Regular dump and reload of database to put it into a logical IP Address order (sort -uV)
 - Consider durations before removal from the database / list
@@ -27,6 +26,10 @@ I've learnt a few things and enjoyed the process so far, so it's almost successf
 - Explain some details about the OPNSense firewall rules
 - Record the IP / Port combination (for later consideration in pattern matching)
 
+# Completed Future considerations
+
+- Narrow down an update interval that's suitable: Every 15 minutes
+
 # Traps
 In a few short days, this exercise has managed to block:
 - Connections to a couple of VPS' that I run, so an allow list becomes a required aide to this kind of automated blocking (interesting how the IP addresses got on the list, requires further investigation)
@@ -35,5 +38,5 @@ In a few short days, this exercise has managed to block:
   - I've only had to unblock a couple of these, one was required for Chromecasting (35.186.224.35) and another for work VPN authentication
 
 # Observations
-- IP Addresses that are connecting to random ports are almost mutually exlusive from IP addresses that are specifically connecting to email server ports.
+- There are separate sets of IP Addresses connecting to random ports versus those connecting to email server specific ports.
   - Subjectively, this indicates to me that IP addresses associated with mail server probes are more 'dangerous': they are directed, not just randomly scanning everything. This makes these IP addresses more valuable to block (I also understand that these IP addresses are likely to be drones in a botnet, and therefore not indicative of actual attackers, but I'd still consider blocking these IP addresses as more worthwhile than those doing random port probes.
