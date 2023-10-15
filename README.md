@@ -20,6 +20,7 @@ I've learnt a few things and enjoyed the process so far, so it's almost successf
 - ~~Narrow down an update interval that's suitable~~
 - ~~Updating of date stamp of continued activity by IP Addresses that are already in the system~~
   - Make it smarter to minimise database queries (not that performance is any kind of issue)
+- Compare the new set of IP addresses against existing DB content to filter out duplicates in order to minimiase database queries
 - Regular dump and reload of database to put it into a logical IP Address order (like 'sort -uV')
 - Consider durations before removal from the database / list
 - Setup of additional nodes and their feed-in to the system
@@ -43,4 +44,4 @@ In a few short days, this exercise has managed to block:
 
 # Observations
 - There are separate sets of IP Addresses connecting to random ports versus those connecting to email server specific ports.
-  - Subjectively, this indicates to me that IP addresses associated with mail server probes are more 'dangerous': they are directed, not just randomly scanning everything. This makes these IP addresses more valuable to block (I also understand that these IP addresses are likely to be drones in a botnet, and therefore not indicative of actual attackers, but I'd still consider blocking these IP addresses as more worthwhile than those doing random port probes.
+  - Subjectively, this indicates to me that IP addresses associated with mail server probes are more 'dangerous': they are directed, not just randomly scanning everything. This makes these IP addresses more valuable to block (I also understand that these IP addresses are likely to be drones in a botnet, and therefore not indicative of the actual malicious actors pulling the strings, but I'd still consider blocking these IP addresses as more worthwhile than those doing random port probes).
