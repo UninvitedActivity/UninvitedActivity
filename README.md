@@ -45,3 +45,5 @@ In a few short days, this exercise has managed to block:
 # Observations
 - There are separate sets of IP Addresses connecting to random ports versus those connecting to email server specific ports.
   - Subjectively, this indicates to me that IP addresses associated with mail server probes are more 'dangerous': they are directed, not just randomly scanning everything. This makes these IP addresses more valuable to block (I also understand that these IP addresses are likely to be drones in a botnet, and therefore not indicative of the actual malicious actors pulling the strings, but I'd still consider blocking these IP addresses as more worthwhile than those doing random port probes).
+- OPNSense firewall Rules change identifiers if you change the rule itself
+- OPNSense gets rid of my custom cron command when the firewall rules change
