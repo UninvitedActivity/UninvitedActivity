@@ -5,3 +5,7 @@
 142.250.70.238		# Google Drive
 35.186.224.35		# Chromecasting
 61.68.31.78		# Work VPN
+20.44.220.42		# The following four IP addresses related to downloading Minecraft from the Microsoft Store and then installing, and playing
+40.65.111.94
+52.156.147.113
+20.42.151.134
