@@ -50,6 +50,6 @@ In a few short days, this exercise has managed to block:
 - OPNSense firewall rule identifiers change when the rule itself is slightly modified (and possibly when any rule is modified)
 - OPNSense gets rid of my custom cron command when the firewall rules change
 
-# Current IP Address list size
-As of 22/10/2023: 20,814
-Running since: 01/10/2023
+# Running Stats
+- Running since: 01/10/2023, as of 22/10/2023: 22 days
+- Uninvited IP addresses, as of 22/10/2023: 20,814
