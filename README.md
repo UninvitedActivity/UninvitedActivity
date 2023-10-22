@@ -2,7 +2,7 @@
 This is an IP address block list and a set of bash scripts that are intended to automatically create and update this list.
 
 # Why Is This?
-The idea is that, if there's traffic coming into a port behind which there's no service (and therefore there's no invitation for this traffic), then it's malicious and I don't want any data coming in from, or going out to, such IP Addresses. My theory is that if they stumble onto an open port, they'll be back.
+The idea is that, if there's traffic coming into a port behind which there's no service (and therefore there's no invitation for this traffic), then it's malicious and I don't want any data coming in from, or going out to, such IP Addresses. Blocking outgoing traffic to IP addresses probing where they're not invited is a thin layer of protection, to be used in conjunction with other layers. I believe this additional thin layer is a worthwhile contribution to an overall safer, more secure, and cleaner-feed of Internet traffic.
 
 # This Isn't Code!
 I sort of disagree, but it's also as close as I can get. Tough, move on.
