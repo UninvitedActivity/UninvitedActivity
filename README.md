@@ -20,6 +20,7 @@ I've learnt a few things and enjoyed the process so far, so it's almost successf
 - ~~Narrow down an update interval that's suitable~~
 - ~~Updating of date stamp of continued activity by IP Addresses that are already in the system~~
   - Make it smarter to minimise database queries (not that performance is any kind of issue)
+- ~~Add a counter to each IP address in the database to track the most active probe sources~~
 - Compare the new set of IP addresses against existing DB content to filter out duplicates in order to minimiase database queries
 - Regular dump and reload of database to put it into a logical IP Address order (like 'sort -uV')
 - Consider durations before removal from the database / list
@@ -34,6 +35,7 @@ I've learnt a few things and enjoyed the process so far, so it's almost successf
 - Narrow down an update interval that's suitable: Every 15 minutes
 - Updating of date stamp of continued activity by IP Addresses that are already in the system
   - This is done using a dumb kludge, I'm not up to querying the database and returning data to use in a script as yet
+- Add a counter to each IP address in the database to track the most active probe sources
 
 # Traps
 In a few short days, this exercise has managed to block:
@@ -47,3 +49,7 @@ In a few short days, this exercise has managed to block:
   - Subjectively, this indicates to me that IP addresses associated with mail server probes are more 'dangerous': they are directed, not just randomly scanning everything. This makes these IP addresses more valuable to block (I also understand that these IP addresses are likely to be drones in a botnet, and therefore not indicative of the actual malicious actors pulling the strings, but I'd still consider blocking these IP addresses as more worthwhile than those doing random port probes).
 - OPNSense firewall rule identifiers change when the rule itself is slightly modified (and possibly when any rule is modified)
 - OPNSense gets rid of my custom cron command when the firewall rules change
+
+# Current IP Address list size
+As of 22/10/2023: 20,814
+Running since: 01/10/2023

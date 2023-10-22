@@ -1,11 +1,41 @@
+#!/bin/sh
 
-# Version 0.1
-# Date: October 4th 2023
+# Version 0.3
+# Date: October 19th 2023
 
+# Variable setup and Confirmation
+date=`date "+%Y%m%d"`
+startingDirectory=/home/<user>/UninvitedActivity
+echo Date: $date
 
-awk -F"[,]" '{print "INSERT INTO `uninvitedActivity` (`activityDate`, `ipAddress`, `server`) VALUES ('\''"$1"'\'', '\''"$2"'\'', '\''"$3"'\'');"}' 20230928_DBImportReady.csv > ImportSQLCommands.sql
+cd $startingDirectory
+
+awk -F"[,]" '{print "INSERT INTO `uninvitedActivity` (`activityDate`, `ipAddress`, `server`) VALUES ('\''"$1"'\'', '\''"$2"'\'', '\''"$3"'\'');"}' ${date}_DBImportReady.csv > ImportSQLCommands.sql
+
+awk -F"[,]" '{print "UPDATE `uninvitedActivity` SET `activityDate` = '\''"$1"'\'' WHERE `ipAddress` = '\''"$2"'\'';"}' ${date}_DBImportReady.csv > UpdateSQLCommands.sql
+
+awk -F"[,]" '{print "UPDATE `uninvitedActivity` SET `counter` = `counter` + 1 WHERE `ipAddress` = '\''"$2"'\'';"}' ${date}_DBImportReady.csv > AddCounterSQLCommands.sql
 
 while IFS= read -r line;
 do
-   mariadb -u <_user_> --password=<_password_> -h <_Host IP Address_> <_Database Name_> -e "$line";
+   mariadb -u <user> --password=<password> -h <Database host IP address> UninvitedActivity -e "$line";
+done < UpdateSQLCommands.sql
+
+sleep 5
+
+while IFS= read -r line;
+do
+   mariadb -u <user> --password=<password> -h <Database host IP address> UninvitedActivity -e "$line";
+done < AddCounterSQLCommands.sql
+
+sleep 5
+
+while IFS= read -r line;
+do
+   mariadb -u <user> --password=<password> -h <Database host IP address> UninvitedActivity -e "$line";
 done < ImportSQLCommands.sql
+
+# wait 10 seconds, then run Script06
+sleep 10
+echo Starting Script06 at `date`
+$startingDirectory/Script06.sh
