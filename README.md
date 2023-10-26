@@ -17,7 +17,7 @@ The scripts take logs from a specific OPNSense firewall rule (that detects and l
 The specific Firewall Alias is used to block incoming traffic to open ports as well as outgoing traffic to any port.
 
 # Who Is This?
-I'm reasonably technical, but more in a system / network administrative kind of way, I'm not a programmer / coder / wizard, and so there are probably a number of highly cringe-inducing methods I've implemented. This exercise was partially to see if I could string together a number of different things into a working system, including creating and interacting with an admittedly incredibly simple database (without knowing anything about how to implement APIs as a safety barrier against direct database manipulation - however the database work is being done locally, not remotely, so that particular security risk is somewhat mitigated), how to use github and awk and rsync-over-ssh.
+I'm reasonably technical, but more in a system / network administrative kind of way, I'm not a programmer / coder / wizard, and so there are probably a number of highly cringe-inducing methods I've implemented. This exercise was partially to see if I could string together a number of different things into a working system, including using awk, rsync-over-ssh, passwordless rsync / ssh, github, and creating and interacting with a (admittedly incredibly simple) database (without knowing anything about how to implement APIs as a safety barrier against direct database manipulation - however the database work is being done locally, not remotely, so that particular security risk is somewhat mitigated), how to use github and awk and rsync-over-ssh.
 
 I've learnt a few things and enjoyed the process so far, so it's almost successful before it's complete.
 
