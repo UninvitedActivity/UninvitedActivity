@@ -1,14 +1,20 @@
 # What Is This?
-This is an IP address block list and a set of bash scripts that are intended to automatically create and update this list.
+This is an IP address block list and a set of shell scripts that are intended to automatically create and update this list.
 
 # Why Is This?
-The idea is that, if there's traffic coming into a port behind which there's no service (and therefore there's no invitation for this traffic), then it's malicious and I don't want any data coming in from, or going out to, such IP Addresses. Blocking outgoing traffic to IP addresses probing where they're not invited is a thin layer of protection, to be used in conjunction with other layers. I believe this additional thin layer is a worthwhile contribution to an overall safer, more secure, and cleaner-feed of Internet traffic.
+The idea is that, if there's traffic coming into a port behind which there's no service (and therefore there's no invitation for this traffic), then it's malicious and I don't want any data coming in from, or going out to, any such IP Addresses.
+
+Essentially: Using uninvited activity on closed ports to provide an additional layer of protection to open ports.
+
+This, specifically, is not an exercise in cleaning up log files. The log files need to remain 'dirty' for the logging to remain current.
 
 # This Isn't Code!
-I sort of disagree, but it's also as close as I can get. Tough, move on.
+I sort of disagree, but it's also as close as I can get, so tough, move on.
 
-# Bash Scripts?!?
-The scripts take logs from a specific OPNSense firewall rule, that detects and reports network traffic on non-open ports, and manipulates the log file into a format that's updateable to a database, updates it to the database, then outputs the content of that database into a file that's readable by an OPNSense "Firewall Alias", such that the list of IP addresses is added to an incoming and outgoing block list.
+# Shell Scripts?!?
+The scripts take logs from a specific OPNSense firewall rule (that detects and logs network traffic on non-open ports), manipulates the log file into a format that's updateable to a database, updates it to the database, outputs the relevant content of that database into a file that's readable by an OPNSense "Firewall Alias", and pushes the updated file to github, from where the Firewall Alias retrieves it.
+
+The specific Firewall Alias is used to block incoming traffic to open ports as well as outgoing traffic to any port.
 
 # Who Is This?
 I'm reasonably technical, but more in a system / network administrative kind of way, I'm not a programmer / coder / wizard, and so there are probably a number of highly cringe-inducing methods I've implemented. This exercise was partially to see if I could string together a number of different things into a working system, including creating and interacting with an admittedly incredibly simple database (without knowing anything about how to implement APIs as a safety barrier against direct database manipulation - however the database work is being done locally, not remotely, so that particular security risk is somewhat mitigated), how to use github and awk and rsync-over-ssh.
