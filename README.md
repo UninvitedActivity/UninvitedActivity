@@ -61,5 +61,5 @@ In a few short days, this exercise has managed to block:
 # Running Stats
 - Running since: 01/10/2023
 - As of 26/10/2023:
-  - Days running: 25
-  - Uninvited IP addresses: 22,266
+  - Days running: 28
+  - Uninvited IP addresses: 24,090
