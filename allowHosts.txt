@@ -1,0 +1,23 @@
+# Version 0.2
+# Date updated: 29/10/2023
+# ------------------------
+157.240.8.35		# Facebook. I don't like it, but the household dictates
+142.250.70.238		# Google Drive
+35.186.224.35		# Chromecasting
+61.68.31.78		# Work VPN
+20.44.220.42		# The following four IP addresses related to downloading Minecraft from the Microsoft Store and then installing, and playing
+40.65.111.94
+52.156.147.113
+20.42.151.134
+# Lets Encrypt
+172.70.130.56
+172.71.150.118
+172.68.2.99
+172.68.126.134
+162.158.245.65
+172.68.0.159
+172.68.0.162
+172.68.0.164
+172.70.100.142
+162.158.245.68
+172.71.142.150
