@@ -27,8 +27,8 @@ I've learnt a few things and enjoyed the process so far, so it's almost successf
 - ~~Updating of date stamp of continued activity by IP Addresses that are already in the system~~
   - Make it smarter to minimise database queries (not that performance is any kind of issue)
 - ~~Add a counter to each IP address in the database to track the most active probe sources~~
-- Work out how to permanently add a custom script to OPNSense crontab
-  - Manual changes to the crontab get overwritten at seemingly random times
+- ~~Work out how to permanently add a custom script to OPNSense crontab~~
+  - ~~Manual changes to the crontab get overwritten at seemingly random times~~
 - Compare the new set of IP addresses against existing DB content to filter out duplicates in order to minimiase database queries
 - Regular dump and reload of database to put it into a logical IP Address order (like 'sort -uV')
 - Consider durations before removal from the database / list
@@ -44,6 +44,8 @@ I've learnt a few things and enjoyed the process so far, so it's almost successf
 - Updating of date stamp of continued activity by IP Addresses that are already in the system
   - This is done using a dumb kludge, I'm not up to querying the database and returning data to use in a script as yet
 - Add a counter to each IP address in the database to track the most active probe sources
+- Work out how to permanently add a custom script to OPNSense crontab
+  - Manual changes to the crontab get overwritten at seemingly random times
 
 # Traps
 In a few short days, this exercise has managed to block:
@@ -60,6 +62,6 @@ In a few short days, this exercise has managed to block:
 
 # Running Stats
 - Running since: 01/10/2023
-- As of 26/10/2023:
+- As of 29/10/2023:
   - Days running: 28
   - Uninvited IP addresses: 24,090
