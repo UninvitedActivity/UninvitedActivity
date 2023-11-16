@@ -1,0 +1,11 @@
+# Censys.io - Internet scanner
+# They make money by probing everyone else's networks. No thanks.
+# They thankfully provide a list of the IP rnages they scan from, here:
+# https://support.censys.io/hc/en-us/articles/360043177092-from-faq
+162.142.125.0/24
+167.94.138.0/24
+167.94.145.0/24
+167.94.146.0/24
+167.248.133.0/24
+199.45.154.0/24
+199.45.155.0/24
