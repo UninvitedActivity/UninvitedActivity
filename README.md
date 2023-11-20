@@ -77,6 +77,12 @@ In a few short days, this exercise has managed to block:
 - OPNSense gets rid of my custom cron command when the firewall rules change
 
 # Running Stats
+- Database reset: 19/11/2023
+- As of 20/11/2023:
+  - Days running: 2
+  - Uninvited IP addresses: 1,470
+
+# OLD:
 - Running since: 01/10/2023
 - As of 16/11/2023:
   - Days running: 46
