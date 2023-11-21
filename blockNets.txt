@@ -1,7 +1,9 @@
 # Censys.io - Internet scanner
-# They make money by probing everyone else's networks. No thanks.
-# They thankfully provide a list of the IP rnages they scan from, here:
+# They make money by probing everyone else's networks and selling what they find.
+# No thanks, I don't want my shit to be searchable on their platform.
+# They thankfully provide a list of the IP ranges they scan from, here:
 # https://support.censys.io/hc/en-us/articles/360043177092-from-faq
+# The data also expires after up to 48 hours, so that's at least something.
 162.142.125.0/24
 167.94.138.0/24
 167.94.145.0/24
