@@ -78,9 +78,14 @@ In a few short days, this exercise has managed to block:
 
 # Running Stats
 - Database reset: 19/11/2023
-- As of 20/11/2023:
-  - Days running: 2
-  - Uninvited IP addresses: 1,470
+- As of 27/11/2023:
+  - Days running: 9 
+  - Rule 1:   196
+  - Rule 2: 2,909
+  - Rule 3: 3,624
+  - Rule 4:   141
+  - Rule 5:   234
+  - Total:  7,104
 
 # OLD:
 - Running since: 01/10/2023
