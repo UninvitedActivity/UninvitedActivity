@@ -4,8 +4,8 @@ IP addresses that have scanned:
 
 - Rule 1: mail server ports
 - Rule 2: ports 1024 and below
-- Rule 3: ports above 1025 from ports above 1025
-- Rule 4: ports above 1025 from ports 1024 and below
+- Rule 3: ports above 1024 from ports above 1024
+- Rule 4: ports above 1024 from ports 1024 and below
 - Rule 5: any other IPv4 uninvited activity
 
 The "-Export" file contains all IP addresses from all rules.
