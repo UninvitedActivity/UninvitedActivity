@@ -13,5 +13,5 @@
 199.45.155.0/24
 # ShadowServer.org
 # These guys are apparently making the internet safer by scanning the entire internet X times a day. Much like the above, profiting from polluting the internet, and selling it to governments and law enforcement. Count me out.
-184.105.247.194/26
+184.105.247.192/26
 65.49.1.0/24
