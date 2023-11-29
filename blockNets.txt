@@ -12,6 +12,14 @@
 199.45.154.0/24
 199.45.155.0/24
 # ShadowServer.org
-# These guys are apparently making the internet safer by scanning the entire internet X times a day. Much like the above, profiting from polluting the internet, and selling it to governments and law enforcement. Count me out.
+# These guys are apparently making the internet safer by scanning the entire internet X times a day.
+# Much like the above, profiting from polluting the internet, and selling it to governments and law enforcement.
+# Count me out.
+# I think the bad guys would be easier to spot if 'good guys' weren't also probing my ports.
+# Also, their overt moralising on their website feels to me like either or both of:
+# - Methinks the lady doth protest too much
+# - Undertones of fascism
+# I suspect they're an arm of one intelligence organisation or another. Either way, GTF away from my ports.
+# It's also likely they have a lot more IP address ranges than those listed here.
 184.105.247.192/26
 65.49.1.0/24
