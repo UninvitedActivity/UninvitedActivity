@@ -25,3 +25,8 @@
 65.49.1.0/24
 184.105.143.128/26	# According to: https://myip.ms/view/ip_addresses/3093925760/184.105.143.128_184.105.143.255
 184.105.192.1/29	# .2 to .6 are Shadow Server sinkholes (honetpots)
+74.82.47.0/26		# .1 is a Tor exit node, the rest seem to be where they do their scanning from going by the DNS names
+184.105.237.192/26
+66.220.23.112/29
+216.218.135.112/29
+64.62.202.64/26

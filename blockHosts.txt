@@ -1,5 +1,6 @@
 # ShadowServer.org honeypots, according to:  
 # https://security.stackexchange.com/questions/168723/the-shadow-server-foundation-constantly-trying-to-get-access-to-mdnsresponder
-64.62.202.101 # malwr.com
-184.105.192.2 # tvbsp.com, profit-case.com, alfa-cash.com, sexy-ladies-wantmeet.com, ladies-with-big-tits.com
-
+64.62.202.101		# malwr.com
+184.105.192.2		# tvbsp.com, profit-case.com, alfa-cash.com, sexy-ladies-wantmeet.com, ladies-with-big-tits.com
+216.218.185.162		# Single IP sinkhole
+216.218.208.114		# Single IP sinkhole
