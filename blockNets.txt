@@ -23,3 +23,5 @@
 # It's also likely they have a lot more IP address ranges than those listed here.
 184.105.247.192/26
 65.49.1.0/24
+184.105.143.128/26	# According to: https://myip.ms/view/ip_addresses/3093925760/184.105.143.128_184.105.143.255
+184.105.192.1/29	# .2 to .6 are Shadow Server sinkholes (honetpots)
