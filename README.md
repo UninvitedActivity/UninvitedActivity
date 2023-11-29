@@ -43,7 +43,7 @@ I've learnt a few things and enjoyed the process so far, so it's almost successf
 - ~~Add a counter to each IP address in the database to track the most active probe sources~~
 - ~~Work out how to permanently add a custom script to OPNSense crontab~~
   - ~~Manual changes to the crontab get overwritten at seemingly random times~~
-- Compare the new set of IP addresses against existing DB content to filter out duplicates in order to minimiase database queries
+- Compare the new set of IP addresses against existing DB content to filter out duplicates in order to minimise database queries
 - Regular dump and reload of database to put it into a logical IP Address order (like 'sort -uV')
 - Consider durations before removal from the database / list
 - Setup of additional nodes and their feed-in to the system
@@ -54,6 +54,8 @@ I've learnt a few things and enjoyed the process so far, so it's almost successf
 
 # Completed Future Considerations
 
+- Tiers of Uninvited Activity based on which ports are being scanned, and from which ports the scans are initiated
+  - Rules 1-5
 - Narrow down an update interval that's suitable: Every 15 minutes
 - Updating of date stamp of continued activity by IP Addresses that are already in the system
   - This is done using a dumb kludge, I'm not up to querying the database and returning data to use in a script as yet
