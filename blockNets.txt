@@ -60,3 +60,4 @@
 # This /24 network has had very many IP addresses detected as sources of Uninvited Activity.
 # As such, I deem this entire network untrustworthy.
 205.210.31.0/24
+198.235.24.0/24
