@@ -36,6 +36,12 @@
 # ===========
 # Exklusiv.de
 # -----------
-# This /24 network has had 18 separate IP addresses detected as sources of Uninvited Activity, 10 of which have been logged over 300 times
+# This /24 network has had 18 separate IP addresses detected as sources of Uninvited Activity, 10 of which have been logged over 300 times each.
 # As such, I deem this entire network untrustworthy.
 77.90.185.0/24
+# =================================
+# Fiberexpress.net / CriminalIP.com
+# ---------------------------------
+# This /24 network has had 24 separate IP addresses detected as sources of Uninvited Activity.
+# As such, I deem this entire network untrustworthy.
+94.102.61.0/24
