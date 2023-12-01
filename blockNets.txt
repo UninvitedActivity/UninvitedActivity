@@ -1,4 +1,5 @@
 # Censys.io - Internet scanner
+# ----------------------------
 # They make money by probing everyone else's networks and selling what they find.
 # No thanks, I don't want my shit to be searchable on their platform.
 # They thankfully provide a list of the IP ranges they scan from, here:
@@ -11,7 +12,9 @@
 167.248.133.0/24
 199.45.154.0/24
 199.45.155.0/24
+# ================
 # ShadowServer.org
+# ----------------
 # These guys are apparently making the internet safer by scanning the entire internet X times a day.
 # Much like the above, profiting from polluting the internet, and selling it to governments and law enforcement.
 # Count me out.
@@ -30,3 +33,9 @@
 66.220.23.112/29
 216.218.135.112/29
 64.62.202.64/26
+# ===========
+# Exklusiv.de
+# -----------
+# This /24 network has had 18 separate IP addresses detected as sources of Uninvited Activity, 10 of which have been logged over 300 times
+# As such, I deem this entire network untrustworthy.
+77.90.185.0/24
