@@ -32,7 +32,9 @@
 184.105.237.192/26
 66.220.23.112/29
 216.218.135.112/29
+216.218.206.64/26
 64.62.202.64/26
+64.62.197.0/24
 # ===========
 # Exklusiv.de
 # -----------
@@ -45,3 +47,16 @@
 # This /24 network has had 24 separate IP addresses detected as sources of Uninvited Activity.
 # As such, I deem this entire network untrustworthy.
 94.102.61.0/24
+# ===================
+# Google User Content
+# -------------------
+# This /24 network has had very many IP addresses detected as sources of Uninvited Activity.
+# As such, I deem this entire network untrustworthy.
+35.203.211.0/24
+35.203.210.0/24
+# ====================
+# PaloAltoNetworks.com
+# --------------------
+# This /24 network has had very many IP addresses detected as sources of Uninvited Activity.
+# As such, I deem this entire network untrustworthy.
+205.210.31.0/24
