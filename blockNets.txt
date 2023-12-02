@@ -61,3 +61,21 @@
 # As such, I deem this entire network untrustworthy.
 205.210.31.0/24
 198.235.24.0/24
+# ========================
+# Internet-Measurement.com
+# ------------------------
+# Yet another internet scanning setup "measuring" services that are publicly exposed. These guys also have a published list of their IP addresses and ranges, here:
+# https://internet-measurement.com/#ips 
+87.236.176.0/24
+193.163.125.0/24
+68.183.53.77/32
+104.248.203.191/32
+104.248.204.195/32
+142.93.191.98/32
+157.245.216.203/32
+165.22.39.64/32
+167.99.209.184/32
+188.166.26.88/32
+206.189.7.178/32
+209.97.152.248/32
+
