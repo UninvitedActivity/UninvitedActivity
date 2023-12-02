@@ -66,6 +66,8 @@
 # ------------------------
 # Yet another internet scanning setup "measuring" services that are publicly exposed. These guys also have a published list of their IP addresses and ranges, here:
 # https://internet-measurement.com/#ips 
+# They also offer a view into their gathered data, here:
+# https://driftnet.io/
 87.236.176.0/24
 193.163.125.0/24
 68.183.53.77/32
@@ -84,3 +86,15 @@
 # This /24 network has had very many IP addresses detected as sources of Uninvited Activity.
 # As such, I deem this entire network untrustworthy.
 123.254.109.0/24
+# ==============
+# stretchoid.com
+# --------------
+# The least convincingly innocent internet scanning site / organisation. Nope.
+137.184.255.0/24
+138.68.208.0/26
+# =============================
+# internet-albedo.net, Netscout
+# -----------------------------
+# Another internet scanner: Threat intelligence, Internet Safety Initiative, apparently.
+# They give their IP address range as: 146.88.240.0/23. Blocked.
+146.88.240.0/23
