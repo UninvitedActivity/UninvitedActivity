@@ -78,4 +78,9 @@
 188.166.26.88/32
 206.189.7.178/32
 209.97.152.248/32
-
+# =========================
+# hkhdc.laws.ms, cloudie.hk
+# -------------------------
+# This /24 network has had very many IP addresses detected as sources of Uninvited Activity.
+# As such, I deem this entire network untrustworthy.
+123.254.109.0/24
