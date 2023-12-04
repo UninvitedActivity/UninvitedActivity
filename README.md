@@ -71,6 +71,8 @@ In a few short days, this exercise has managed to block:
   - I've only had to unblock a couple of these, one was required for Chromecasting (35.186.224.35) and another for work VPN authentication
 
 # Observations
+- The combination of Rule #1 blocks and network blocks in the blockNets.txt file has cut email server port probes down to zero in the last 24 hours.
+  - I think this is primarily down the the blockNets.txt file, as I worked on this over the weekend as a concerted effort to block uninvited activity coming from a large number of IPs within a /24 range.
 - Obvious in retrospect, but running a DHT scraper (bitmagnet) means your IP address is advertised all over the DHT and thus invites a veritable shitload of traffic, effectively quadrupling the size of the IP address blocklist within a week. I'm not sure how to manage all the additional IP addresses caused by this, but know that if I'm going to run a DHT scraper again, it's going to tunnel through somewhere other than where I'm gathering malicious IP addresses.
   - There's also the alternate perspective in that maybe it's just made the malicious IP address gathering much more efficient...
 - There are separate sets of IP Addresses connecting to random ports versus those connecting to email server specific ports.
