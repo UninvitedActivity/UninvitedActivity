@@ -37,6 +37,7 @@ I've learnt a few things and enjoyed the process so far, so it's almost successf
 
 # Future Considerations
 
+- Autoupdate the running stats for each rule at the end of this README
 - ~~Narrow down an update interval that's suitable~~
 - ~~Updating of date stamp of continued activity by IP Addresses that are already in the system~~
   - Make it smarter to minimise database queries (not that performance is any kind of issue)
@@ -45,9 +46,11 @@ I've learnt a few things and enjoyed the process so far, so it's almost successf
   - ~~Manual changes to the crontab get overwritten at seemingly random times~~
 - Compare the new set of IP addresses against existing DB content to filter out duplicates in order to minimise database queries
 - Regular dump and reload of database to put it into a logical IP Address order (like 'sort -uV')
+  - Downgraded priority, as it just doesn't really matter the order in which it's stored in the DB. That's one of the beauties of a DB.
 - Consider durations before removal from the database / list
 - Setup of additional nodes and their feed-in to the system
 - Setup of dummy mail server(s) to catch exclusively mail-scanning IP addresses
+  - Downgraded priority, as with the current set of rules and blocks there's very little mail server probing any more
 - Grouping of large numbers of /24 IP Addresses into a /24 network ban rather than individual IP addresses
 - Explain some details about the OPNSense firewall rules
 - Record the IP / Port combination (for later consideration in pattern matching)
