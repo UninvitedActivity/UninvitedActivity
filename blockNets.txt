@@ -98,3 +98,26 @@
 # Another internet scanner: Threat intelligence, Internet Safety Initiative, apparently.
 # They give their IP address range as: 146.88.240.0/23. Blocked.
 146.88.240.0/23
+# ======
+# Rapid7
+# ------
+# Another "internet security" org. Sigh.
+# Data for network ranges to block from here:
+# - https://www.netify.ai/resources/applications/rapid7 
+# - https://opendata.rapid7.com/about/ 
+# The first set of IP address ranges is a bunch that they own for various infrastructure, likely including their websites and services:
+27.0.224.0/22
+38.242.21.0/24
+161.38.59.0/24
+195.95.191.0/24
+199.201.125.0/24
+# This second set is where they scan from (so far as I can tell).
+# The second link above specifically says:
+# "Project Sonar performs its collection activities from AWS EC2 us-west-1, us-west-2 and us-east-1 instances with non-static IP addresses, 
+# and as such cannot be readily allowlisted or blocklisted themselves,
+# however it is sufficient to blocklist or allowlist the scan ranges listed above"
+5.63.151.96/27
+71.6.233.0/24
+88.202.190.128/27
+146.185.25.160/27
+109.123.117.224/27
