@@ -20,7 +20,7 @@ The idea is that, if there's traffic coming into a port behind which there's no 
 
 Essentially: Using uninvited activity on closed ports to provide an additional layer of protection to open ports.
 
-This, specifically, is not an exercise in cleaning up log files. The log files need to remain 'dirty' for the logging to remain current.
+This, specifically, is not an exercise in cleaning up log files. The log files need to remain 'dirty' for the blocking to remain current.
 
 # This Isn't Code!
 I sort of disagree, but it's also as close as I can get, so tough, move on.
@@ -31,7 +31,7 @@ The scripts take logs from a specific OPNSense firewall rule (that detects and l
 The specific Firewall Alias is used to block incoming traffic to open ports as well as outgoing traffic to any port.
 
 # Who Is This?
-I'm reasonably technical, but more in a system / network administrative kind of way, I'm not a programmer / coder / wizard, and so there are probably a number of highly cringe-inducing methods I've implemented. This exercise was partially to see if I could string together a number of different things into a working system, including using awk, rsync-over-ssh, passwordless rsync / ssh, github, and creating and interacting with a (admittedly incredibly simple) database (without knowing anything about how to implement APIs as a safety barrier against direct database manipulation - however the database work is being done locally, not remotely, so that particular security risk is somewhat mitigated), how to use github and awk and rsync-over-ssh.
+I'm reasonably technical, but more in a system / network administrative kind of way, I'm not a programmer / coder / wizard, and so there are probably a number of highly cringe-inducing methods I've implemented. This exercise was partially to see if I could string together a number of different things into a working system, including using awk, rsync-over-ssh, passwordless rsync / ssh, github, and creating and interacting with a (admittedly incredibly simple) database (without knowing anything about how to implement APIs as a safety barrier against direct database manipulation - however the database work is being done locally, not remotely, so that particular security risk is somewhat mitigated), and how to use github as a repository for both the scripts and the block lists.
 
 I've learnt a few things and enjoyed the process so far, so it's almost successful before it's complete.
 
