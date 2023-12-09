@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# Version 0.1
-# Date: October 4th 2023
+# Version 0.2
+# Date: December 9th 2023
 
 # Variable setup
 date=`date "+%Y%m%d"`
@@ -69,7 +69,7 @@ echo
 echo "Diffing current log file with previous"
 echo "--------------------------------------"
 
-diff $workingDirectory/$dateTime.txt $workingDirectory/$dateTimePrev.txt > $workingDirectory/${dateTime}_Diffd.txt
+diff -a $workingDirectory/$dateTime.txt $workingDirectory/$dateTimePrev.txt > $workingDirectory/${dateTime}_Diffd.txt
 
 if [ -f "$workingDirectory/${dateTime}_Diffd.txt" ]
 then
@@ -116,3 +116,11 @@ echo "==========================================================================
 echo
 
 exit 0;
+
+# ==========
+# Change Log
+# ==========
+# V 0.2
+# -----
+# 'diff' changed to 'diff -a' due to diff appearing to detect binary characters in the log files and therefore refusing to output the details of the differences, and instead just saying 'Binary files x y differ', which isn't very helpful.
+# I don't know what it's picking up as binary characters, which worries me very slightly.
