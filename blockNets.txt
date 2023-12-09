@@ -121,3 +121,13 @@
 88.202.190.128/27
 146.185.25.160/27
 109.123.117.224/27
+# =============
+# IPv4 Superhub
+# -------------
+# Quite a few in this range have hit my servers and abuseipdb has this range from 134 to 253 as being flagged, so the full /24 is getting blocked.
+185.233.19.0/24
+# ==========
+# pfcloud.io
+# ----------
+# 27 ip addresses in this range have hit my servers, and more than that are flagged on abuseipdb, so the /24 is getting blocked
+84.54.51.0/24
