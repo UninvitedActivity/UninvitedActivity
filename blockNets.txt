@@ -131,3 +131,38 @@
 # ----------
 # 27 ip addresses in this range have hit my servers, and more than that are flagged on abuseipdb, so the /24 is getting blocked
 84.54.51.0/24
+# =======
+# Recyber
+# -------
+# This is an interesting one, I'll just list a few websites from which information was gathered:
+# - https://tools.tracemyip.org/search--isp/recyber.net
+# - https://www.reddit.com/r/firewalla/comments/nsahw6/many_blocks_from_the_recyber_project/
+# - https://isc.sans.edu/diary/Whats+the+deal+with+openportstatscom/26912
+# - https://seclists.org/nanog/2019/Jun/295
+# - https://github.com/Lex1020/ReCyber-Blocklist/blob/main/IPs
+# - https://www.threatstop.com/blog/yet-another-legit-scanner-testing-user-patience
+# - https://viz.greynoise.io/tag/recyber-project?days=1
+89.248.163.0/24
+89.248.165.0/24
+# ==================================================
+# Openportstats, IP Volume Inc., AS204655,  AS202425
+# --------------------------------------------------
+# Seem closely related to Recyber according to the websites listed above
+# This is the biggest and most controversial blocking in this list, and so it's effects are going to be monitored to see if it actually affects anything legitimate
+# AS202425 ranges, from here: https://www.whatismyip.com/asn/202425/
+92.63.196.0/24	# Belgium
+5.8.18.0/24 	# Cyprus
+45.148.144.0/24 # Netherlands, incl. all below
+80.82.64.0/24
+80.82.68.0/23
+80.82.70.0/24
+80.82.76.0/22
+89.248.160.0/21
+89.248.168.0/22
+89.248.172.0/23
+89.248.174.0/24
+93.174.88.0/21
+94.102.48.0/20
+145.249.104.0/22
+# AS204655
+200.85.141.0/24	# Bolivia
