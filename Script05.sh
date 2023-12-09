@@ -10,7 +10,7 @@ echo Date: $date
 
 cd $startingDirectory
 
-awk -F"[,]" '{print "INSERT INTO `uninvitedActivity` (`activityDate`, `ipAddress`, `server`) VALUES ('\''"$1"'\'', '\''"$2"'\'', '\''"$3"'\'');"}' ${date}_DBImportReady.csv > ImportSQLCommands.sql
+awk -F"[,]" '{print "INSERT INTO `uninvitedActivity` (`activityDate`, `ipAddress`, `server`, `scanType`) VALUES ('\''"$1"'\'', '\''"$2"'\'', '\''"$3"'\'', '\''"$4"'\'');"}' ${date}_DBImportReady.csv > ImportSQLCommands.sql
 
 awk -F"[,]" '{print "UPDATE `uninvitedActivity` SET `activityDate` = '\''"$1"'\'' WHERE `ipAddress` = '\''"$2"'\'';"}' ${date}_DBImportReady.csv > UpdateSQLCommands.sql
 
@@ -18,21 +18,21 @@ awk -F"[,]" '{print "UPDATE `uninvitedActivity` SET `counter` = `counter` + 1 WH
 
 while IFS= read -r line;
 do
-   mariadb -u <user> --password=<password> -h <Database host IP address> UninvitedActivity -e "$line";
+   mariadb -u <user> --password=<password> -h <Database IP> UninvitedActivity -e "$line";
 done < UpdateSQLCommands.sql
 
 sleep 5
 
 while IFS= read -r line;
 do
-   mariadb -u <user> --password=<password> -h <Database host IP address> UninvitedActivity -e "$line";
+   mariadb -u <user> --password=<password> -h <Database IP> UninvitedActivity -e "$line";
 done < AddCounterSQLCommands.sql
 
 sleep 5
 
 while IFS= read -r line;
 do
-   mariadb -u <user> --password=<password> -h <Database host IP address> UninvitedActivity -e "$line";
+   mariadb -u <user> --password=<password> -h <Database IP> UninvitedActivity -e "$line";
 done < ImportSQLCommands.sql
 
 # wait 10 seconds, then run Script06

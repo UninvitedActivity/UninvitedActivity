@@ -6,7 +6,7 @@
 startingDirectory=/home/<user>/UninvitedActivity
 
 cd $startingDirectory
-sshpass -p <password> rsync -e "ssh -p 222" <user>@<OPNSense host IP address>:/home/<user>/FWLogBlock/* ./
+sshpass -p <password> rsync -e "ssh -p 222" <user>@<firewall IP>:/home/<user>/FWLogBlock/* ./
 
 # wait 10 seconds then run Script05
 
