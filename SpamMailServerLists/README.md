@@ -10,31 +10,29 @@ Use your own judgement, do some research.
 
 # Back Scatterer
 
-This is a sister service to UCE Protect, so the warnings below may apply equally here.
-
-https://www.backscatterer.org/
-
-Worth a read if you're going to use this list: https://groups.google.com/g/news.admin.net-abuse.blocklisting/c/Gl-FthmMq6w
+- This is a sister service to UCE Protect, so the warnings below may apply equally here.
+- https://www.backscatterer.org/
+- Worth a read if you're going to use this list: https://groups.google.com/g/news.admin.net-abuse.blocklisting/c/Gl-FthmMq6w
 
 # Nixspam
 
-https://www.nixspam.net/
-https://www.heise.de/ix/NiX-Spam-DNSBL-and-blacklist-for-download-499637.html
+- https://www.nixspam.net/
+- https://www.heise.de/ix/NiX-Spam-DNSBL-and-blacklist-for-download-499637.html
 
 # PSBL
 
-https://psbl.org/
+- https://psbl.org/
 
 # UCE Protect
 
-https://www.uceprotect.net/en/index.php
+- https://www.uceprotect.net/en/index.php
 
 Be warned, however:
-https://www.inmotionhosting.com/support/news/uceprotect-rbl-scam/
-https://blog.sucuri.net/2021/02/uceprotect-when-rbls-go-bad.html
+- https://www.inmotionhosting.com/support/news/uceprotect-rbl-scam/
+- https://blog.sucuri.net/2021/02/uceprotect-when-rbls-go-bad.html
 
 # Whitelist
 
 This is a sister service to UCE Protect, so the warnings above may apply equally here.
 
-https://whitelisted.org
+- https://whitelisted.org
