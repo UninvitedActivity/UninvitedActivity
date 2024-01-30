@@ -1,0 +1,5 @@
+# Three conservative lists of known bad IP addresses
+
+https://feodotracker.abuse.ch/downloads/ipblocklist.txt
+https://feodotracker.abuse.ch/downloads/ipblocklist_recommended.txt
+https://www.spamhaus.org/drop/drop.txt
