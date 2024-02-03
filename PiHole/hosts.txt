@@ -1,0 +1,14 @@
+# This is a small list of hosts I've personally, manually added from scam texts and emails
+
+0.0.0.0 knycd.xyz
+0.0.0.0 auspost-com-au.live
+0.0.0.0 megalot.autos
+0.0.0.0 postnh.top
+0.0.0.0 vernib.buzz
+0.0.0.0 tolldence.cc
+0.0.0.0 zaus.cc
+0.0.0.0 medical-onlinea.cc
+# 0.0.0.0 t.ly # Link shorteners are basically to hide scam sites these days. 
+0.0.0.0 autmw.top
+0.0.0.0 linkt.live
+0.0.0.0 auonlinealerts.info
