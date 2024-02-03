@@ -1,4 +1,7 @@
-# This is a small list of hosts I've personally, manually added from scam texts and emails
+# This is a small list of hosts I've personally, manually added from scam texts and emails.
+# They are listed as the domains where the actual scam pointed to a sub-domain,
+# and therefore the content of this list is best manually added to local PiHole filtering
+# with the wildcard option selected. 
 
 0.0.0.0 knycd.xyz
 0.0.0.0 auspost-com-au.live
