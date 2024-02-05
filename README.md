@@ -49,6 +49,7 @@ I've learnt a few things and enjoyed the process so far, so it's almost successf
   - Downgraded priority, as it just doesn't really matter the order in which it's stored in the DB. That's one of the beauties of a DB.
 - Consider durations before removal from the database / list
 - Setup of additional nodes and their feed-in to the system
+  - "Appliance" like setup option
 - Setup of dummy mail server(s) to catch exclusively mail-scanning IP addresses
   - Downgraded priority, as with the current set of rules and blocks there's very little mail server probing any more
 - Grouping of large numbers of /24 IP Addresses into a /24 network ban rather than individual IP addresses
@@ -57,6 +58,7 @@ I've learnt a few things and enjoyed the process so far, so it's almost successf
 
 # Completed Future Considerations
 
+- Added a new detection node, from setup to feed-in and verification
 - Tiers of Uninvited Activity based on which ports are being scanned, and from which ports the scans are initiated
   - Rules 1-5
 - Narrow down an update interval that's suitable: Every 15 minutes
