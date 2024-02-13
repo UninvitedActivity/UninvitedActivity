@@ -1,0 +1,7 @@
+# https://stretchoid.com
+
+137.184.225.0/24
+138.68.208.0/26
+
+# There is also this location that has a nearly 3,000-strong list of IP addresses that I also block:
+# https://raw.githubusercontent.com/datacenters-network/security/main/stretchoid.txt 
