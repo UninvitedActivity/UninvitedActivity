@@ -1,0 +1,4 @@
+# https://www.paloaltonetworks.com/
+
+205.210.31.0/24
+198.235.24.0/24

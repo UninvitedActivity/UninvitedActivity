@@ -1,0 +1,7 @@
+# https://www.alphastrike.io
+
+45.83.64.0/22
+194.187.176.0/22
+
+# I block these ranges via their ASN:
+# 208843
