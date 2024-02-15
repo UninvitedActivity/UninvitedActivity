@@ -27,6 +27,14 @@ https://github.com/datacenters-network/security/ Who also links to:
 
 https://www.alphastrike.io/en/
 
+## Anubis Networks / BitSight
+
+https://www.anubisnetworks.com/
+
+BitSight purchase of Anubis Networks: https://www.bitsight.com/press-releases/news/bitsight-acquires-innovative-security-intelligence-company-anubisnetworks
+
+https://www.bitsight.com/
+
 ## Censys.io
 
 https://censys.com/
@@ -36,11 +44,13 @@ Search their database: https://search.censys.io/
 ## Internet Albedo
 
 https://www.internet-albedo.net/
+
 https://www.netscout.com/
 
 ## Internet Measurement
 
 https://internet-measurement.com/
+
 https://driftnet.io/ (can search for an IP address on this page)
 
 ## Palo Alto Networks
@@ -66,4 +76,5 @@ Surprisingly they haven't hit my radar yet, but there may be other blocklists I'
 ## Stretchoid.com
 
 The least trustworthy looking website which coincidentally asks you to enter your IP address in order to add it to their 'do not scan' list. Sus. Don't give 'em nothin'.
+
 https://stretchoid.com
