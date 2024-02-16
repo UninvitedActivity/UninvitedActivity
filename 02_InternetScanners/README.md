@@ -2,7 +2,8 @@
 
 These are organisations that appear to scan multiple ports of a fair swag of the IPv4 range.
 
-Most of them have websites that say they provide legit security knowledge and data to governments, researchers, and other organisations. Most of them won't even give you a reacharound (censys.io and internet-measurement are the exceptions).
+Most of them have websites that say they provide legit security knowledge and data to governments, researchers, and other organisations. Most of them won't even give you a reacharound (censys.io, criminalIP, and internet-measurement are the exceptions).
+
 
 I don't trust them, they're holding searchable details of whatever they can find by probing open ports on your IP addresses. I don't want that information to be in anyone else's database and neither should you. They also profit from it. Fuck 'em!
 
@@ -40,6 +41,14 @@ https://www.bitsight.com/
 https://censys.com/
 
 Search their database: https://search.censys.io/
+
+## Criminal IP
+
+https://www.criminalip.io/ (contains a search bar)
+
+https://security.criminalip.com/
+
+https://www.aispera.com
 
 ## Internet Albedo
 
