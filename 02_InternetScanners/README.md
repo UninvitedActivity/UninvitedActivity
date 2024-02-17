@@ -7,6 +7,8 @@ Most of them have websites that say they provide legit security knowledge and da
 
 I don't trust them, they're holding searchable details of whatever they can find by probing open ports on your IP addresses. I don't want that information to be in anyone else's database and neither should you. They also profit from it. Fuck 'em!
 
+A good article on the topic: https://www.hackerfactor.com/blog/index.php?/archives/775-Scans-and-Attacks.html 
+
 # How I Use
 
 I block traffic both to and from these IP address ranges. 
