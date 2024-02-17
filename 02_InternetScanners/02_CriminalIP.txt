@@ -1,3 +1,8 @@
 # https://criminalip.io
 
+# Networks
 94.102.61.0/24
+185.242.226.0/24
+
+# Individual IP Addresses
+185.216.140.6
