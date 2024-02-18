@@ -78,6 +78,12 @@ https://www.rapid7.com/
 
 https://www.recyber.net/
 
+## Security Trails
+
+https://securitytrails.com/
+
+These guys are a subsidiary of Recorded Future. They appear to publish a fair bit of useful information, but I still don't trust them because they've got a big store of historic IP address / port scan / DNS data to correlate.
+
 ## Shadow Server
 
 https://www.shadowserver.org/
