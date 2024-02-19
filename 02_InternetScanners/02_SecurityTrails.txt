@@ -1,3 +1,6 @@
 # https://securitytrails.com/
 
-195.230.103.0/24 
+195.230.103.0/24
+193.3.53.0/24
+
+# I also block them via their ASN: 211607
