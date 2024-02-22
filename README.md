@@ -1,3 +1,17 @@
+# What Is This?
+This is a set of shell scripts that are intended to detect "uninvited activity" (un-requested and uninvited network traffic) and automatically create and update a (set of) IP address block lists based on this uninvited activity.
+
+# Why Is This?
+The idea is that, if there's traffic coming into a port behind which there's no service (and therefore there's absolutely no good reason for this trafffic to exist), then it must be malicious. If it's malicious, then I have no reason to trust any data coming from that IP address.
+
+Essentially: Using uninvited activity on any closed ports to block access to any open ports.
+
+Diagram explanation: If an IP address hits a red port, it will be blocked from accessing any green ports.
+
+<insert diagram here at some point in the near future>
+
+This is specifically not an exercise in cleaning up log files. The log files need to remain 'dirty' for the blocking to remain current.
+
 # Rule Explanations
 
 IP addresses that have scanned:
@@ -11,16 +25,6 @@ IP addresses that have scanned:
 The "-Export" file contains all IP addresses from all rules.
 
 I use Rule 1, 2, and 5 for traffic blocking. I use Rule 4 to detect potentially incorrect blocks. I occasionally use Rule 3 to see how many sites and services it breaks in order to work out additional tweaks to these rules.
-
-# What Is This?
-This is an IP address block list and a set of shell scripts that are intended to automatically create and update this list.
-
-# Why Is This?
-The idea is that, if there's traffic coming into a port behind which there's no service (and therefore there's no invitation for this traffic), then it's malicious and I don't want any data coming in from, or going out to, any such IP Addresses.
-
-Essentially: Using uninvited activity on closed ports to provide an additional layer of protection to open ports.
-
-This, specifically, is not an exercise in cleaning up log files. The log files need to remain 'dirty' for the blocking to remain current.
 
 # This Isn't Code!
 I sort of disagree, but it's also as close as I can get, so tough, move on.
