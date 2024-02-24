@@ -6,9 +6,9 @@ The idea is that, if there's traffic coming into a port behind which there's no 
 
 Essentially: Using uninvited activity on any closed ports to block access to any open ports.
 
-Diagram explanation: If an IP address hits a red port, it will be blocked from accessing any green ports.
+Diagram explanation: If an IP address hits a red (closed) port, it will be blocked from accessing any green (open) ports.
 
-<insert diagram here at some point in the near future>
+![Ports](https://github.com/UninvitedActivity/UninvitedActivity/blob/09d8f420df78cd6ba3352dbde0339ca3e51a6be8/Ports-ClosedOpen.png)
 
 This is specifically not an exercise in cleaning up log files. The log files need to remain 'dirty' for the blocking to remain current.
 
