@@ -4,9 +4,7 @@ This is a set of shell scripts that are intended to detect "uninvited activity" 
 # Why Is This?
 The idea is that, if there's traffic coming into a port behind which there's no service (and therefore there's absolutely no good reason for this trafffic to exist), then it must be malicious. If it's malicious, then I have no reason to trust any data coming from that IP address.
 
-Essentially: Using uninvited activity on any closed ports to block access to any open ports.
-
-Diagram explanation: If an IP address hits a red (closed) port, it will be blocked from accessing any green (open) ports.
+Essentially: Using uninvited activity on any closed (red) ports to block access to any open (green) ports.
 
 ![Ports](https://github.com/UninvitedActivity/UninvitedActivity/blob/09d8f420df78cd6ba3352dbde0339ca3e51a6be8/Ports-ClosedOpen.png)
 
