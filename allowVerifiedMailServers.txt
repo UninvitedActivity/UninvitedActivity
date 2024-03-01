@@ -37,9 +37,8 @@
 51.222.89.29
 
 # JB Hifi
-167.89.109.120 # Sendgrid
 198.2.137.16
 
-# Garmin
-167.89.68.146 # Sendgrid
-
+# Sendgrid
+167.89.68.146	# Garmin
+167.89.108.120	# JB Hifi
