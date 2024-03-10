@@ -15,3 +15,5 @@
 0.0.0.0 autmw.top
 0.0.0.0 linkt.live
 0.0.0.0 auonlinealerts.info
+0.0.0.0 cxxz.services
+0.0.0.0 govs.services
