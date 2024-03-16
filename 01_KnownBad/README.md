@@ -14,3 +14,7 @@ https://www.dshield.org/block.txt.
 I block all incoming traffic from this list.
 
 I have no time frames for removal, I figure that if a large portion of a class C subnet is attacking, then it's a fairly systemic problem.
+
+# Tamatiya ASN
+
+Seven of the IPv4 ranges associated with Tamatiya's AS have been listed on the DShield list, so I've decided to block their whole AS. Either they've lost control of their shit, or they're actively participating in malicious activity. Either option is bad.
