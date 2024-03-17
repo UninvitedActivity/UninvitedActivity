@@ -17,6 +17,6 @@ I have no time frames for removal, I figure that if a large portion of a class C
 
 # Tamatiya ASN
 
-Seven of the nineteen IPv4 ranges associated with Tamatiya's AS have been listed on the DShield list, so I've decided to block their whole AS.
+~Seven~ Eight of the nineteen IPv4 ranges associated with Tamatiya's AS have been listed on the DShield list, so I've decided to block their whole AS.
 
 Either they've lost control of their shit, or they're actively participating in malicious activity. Either option is bad.
