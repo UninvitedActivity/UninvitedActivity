@@ -12,6 +12,8 @@ I have no time limit for removing the blocks of these networks. Like with the DS
 
 In combination with blocking the Internet Scanners networks, these block lists, and the IP addresses in the "Rule 1" list, I get virtually zero uninvited activity on my mail server ports.
 
+Throughout February a bunch of Cloudflare-owned IP addresses were sending out probes to port 8080 and 8443, hence the 03_CloudflareCom.txt file. This feels out of character for Cloudflare as they're a reverse proxying company, not a hosting company. Either way, those networks are now blocked from my open ports.
+
 # Exclusions
 
 03_1e100Net.txt: These are Google IP addresses which, when blocked, break some Internet connectivity on my home network, so whilst it remains listed here, I'm not currently using it for blocking. It's disappointing to me that even Google is now initiating probe traffic.
