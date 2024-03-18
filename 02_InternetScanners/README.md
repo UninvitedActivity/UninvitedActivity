@@ -30,6 +30,8 @@ https://github.com/datacenters-network/security/ Who also links to:
 
 https://www.alphastrike.io/en/
 
+I block Alpha Strike via their ASN: 208843.
+
 ## Anubis Networks / BitSight
 
 https://www.anubisnetworks.com/
@@ -45,6 +47,8 @@ https://www.internet-census.org
 https://censys.com/
 
 Search their database: https://search.censys.io/
+
+I've started blocking Censys via their ASNs: 398324, 398705, and 398722.
 
 ## Criminal IP
 
@@ -83,6 +87,8 @@ https://www.recyber.net/
 https://securitytrails.com/
 
 These guys are a subsidiary of Recorded Future. They appear to publish a fair bit of useful information, but I still don't trust them because they've got a big store of historic IP address / port scan / DNS data to correlate.
+
+I block Security Trails by their ASN: 211607.
 
 ## Shadow Server
 
