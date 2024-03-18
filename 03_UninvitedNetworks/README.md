@@ -11,3 +11,9 @@ I have no time limit for removing the blocks of these networks. Like with the DS
 # Observations
 
 In combination with blocking the Internet Scanners networks, these block lists, and the IP addresses in the "Rule 1" list, I get virtually zero uninvited activity on my mail server ports.
+
+# Exclusions
+
+03_1e100Net.txt: These are Google IP addresses which, when blocked, break some Internet connectivity on my home network, so whilst it remains listed here, I'm not currently using it for blocking. It's disappointing to me that even Google is now initiating probe traffic.
+
+I'm interested to see if the 'probe counters' slowly increase, or whether a larger portion of the network are detected as sources of these probes, as time goes by.
