@@ -44,3 +44,6 @@
 167.89.68.146	# Garmin
 167.89.108.120	# JB Hifi
 167.89.109.136	# JB Hifi
+
+# Brevo (Send In Blue)
+77.32.149.5	# IntoTheCryptoVerse
