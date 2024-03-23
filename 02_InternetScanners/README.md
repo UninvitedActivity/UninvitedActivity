@@ -70,6 +70,12 @@ https://internet-measurement.com/
 
 https://driftnet.io/ (can search for an IP address on this page)
 
+## Leak IX / I9 Scanner
+
+https://leakix.org
+
+Vulnerability search engine like Shodan.io by the looks.
+
 ## Palo Alto Networks
 
 https://www.paloaltonetworks.com/
