@@ -18,3 +18,5 @@
 0.0.0.0 cxxz.services
 0.0.0.0 govs.services
 0.0.0.0 faq-linkt-a.org
+0.0.0.0 linktcollectionhouseonline.info
+0.0.0.0 post-mgd.life
