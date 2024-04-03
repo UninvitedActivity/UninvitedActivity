@@ -20,3 +20,4 @@
 0.0.0.0 faq-linkt-a.org
 0.0.0.0 linktcollectionhouseonline.info
 0.0.0.0 post-mgd.life
+0.0.0.0 linktpaynoticefees.net
