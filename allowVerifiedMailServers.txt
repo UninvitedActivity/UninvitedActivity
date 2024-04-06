@@ -47,3 +47,4 @@
 
 # Brevo (Send In Blue)
 77.32.149.5	# IntoTheCryptoVerse
+185.41.28.114	# IntoTheCryptoVerse
