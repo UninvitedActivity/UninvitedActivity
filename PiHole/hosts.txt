@@ -22,3 +22,5 @@
 0.0.0.0 post-mgd.life
 0.0.0.0 linktpaynoticefees.net
 0.0.0.0 linktpaymentnotices.com
+0.0.0.0 ausposf.xyz
+0.0.0.0 linktpaymentnotices.net
