@@ -25,3 +25,5 @@
 0.0.0.0 ausposf.xyz
 0.0.0.0 linktpaymentnotices.net
 0.0.0.0 ausorriso.xyz # 107.173.165.253 racknerd.com, I've reported this as an abusive site
+0.0.0.0 analyticsss.info
+0.0.0.0 lkttolllate.cyou
