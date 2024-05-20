@@ -70,6 +70,16 @@ https://internet-measurement.com/
 
 https://driftnet.io/ (can search for an IP address on this page)
 
+## Internet TTL
+
+https://internettl.org
+
+The website doesn't load, which fills me with confidence in their legitimacy.
+
+They've hit SANS' radar, who don't seem enamoured: https://x.com/sans_isc/status/1439771161764798468 
+
+I'm not sure of how much overlap there is between this outfit and Rethem Hosting, but the blocked /24 range is one of five IPv4 /24 ranges listed on Rethem Hosting's AS: 14987:
+
 ## Leak IX / I9 Scanner
 
 https://leakix.org
