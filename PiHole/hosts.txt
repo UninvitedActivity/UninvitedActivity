@@ -35,3 +35,5 @@
 0.0.0.0 linkscmo.buzz
 0.0.0.0 parcelauthorized.solutions
 0.0.0.0 coles-kec.life
+0.0.0.0 coles-nce.life
+0.0.0.0 linkt-online.buzz
