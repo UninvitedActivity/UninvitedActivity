@@ -66,5 +66,5 @@
 # Amazon AWS
 54.240.48.32 # Marketing, not sure how they got this email address
 
-# CrunchyRoll
-223.165.118.3
+# Braze Inc.
+223.165.118.3 # Crunchyroll
