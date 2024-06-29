@@ -6,6 +6,7 @@
 40.118.212.131
 172.202.177.79
 4.246.247.233
+57.152.75.184
 
 # There is also this location that has a nearly 3,000-strong list of IP addresses that I also block:
 # https://raw.githubusercontent.com/datacenters-network/security/main/stretchoid.txt 
