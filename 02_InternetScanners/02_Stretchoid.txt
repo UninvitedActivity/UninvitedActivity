@@ -17,4 +17,4 @@
 172.206.146.200
 
 # There is also this location that has a nearly 3,000-strong list of IP addresses that I also block:
-# https://raw.githubusercontent.com/datacenters-network/security/main/stretchoid.txt 
+# https://security.wdes.eu/scanners/stretchoid.txt
