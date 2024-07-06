@@ -84,12 +84,20 @@
 209.97.152.248/32
 #
 
-# AlphaStrikeLabs
+# InterneTTL
 
 # https://internettl.org
 
 104.152.52.0/24
 #
+
+# https://internet-transparency.org/
+# IP address listed here: https://internet-transparency.org/contact.html
+
+145.90.8.8
+145.90.8.9
+145.90.8.10
+192.87.173.73
 
 # IsiEduPinger
 
