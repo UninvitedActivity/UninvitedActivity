@@ -84,20 +84,12 @@
 209.97.152.248/32
 #
 
-# InterneTTL
+# AlphaStrikeLabs
 
 # https://internettl.org
 
 104.152.52.0/24
 #
-
-# https://internet-transparency.org/
-# IP address listed here: https://internet-transparency.org/contact.html
-
-145.90.8.8
-145.90.8.9
-145.90.8.10
-192.87.173.73
 
 # IsiEduPinger
 
@@ -186,8 +178,9 @@
 
 # https://www.paloaltonetworks.com/
 
-205.210.31.0/24
+147.185.132.0/24
 198.235.24.0/24
+205.210.31.0/24
 #
 
 # Rapid7
@@ -266,5 +259,6 @@
 172.206.146.200
 
 # There is also this location that has a nearly 3,000-strong list of IP addresses that I also block:
-# https://raw.githubusercontent.com/datacenters-network/security/main/stretchoid.txt 
+# https://security.wdes.eu/scanners/stretchoid.txt
 #
+
