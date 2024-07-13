@@ -16,6 +16,9 @@ Throughout February a bunch of Cloudflare-owned IP addresses were sending out pr
 
 # Exclusions
 
-03_1e100Net.txt: These are Google IP addresses which, when blocked, break some Internet connectivity on my home network, so whilst it remains listed here, I'm not currently using it for blocking. It's disappointing to me that even Google is now initiating probe traffic.
+## 1e100.net
+03_1e100Net.txt
+
+These are Google IP addresses which, when blocked, break some Internet connectivity on my home network, so whilst it remains listed here, I'm not currently using it for blocking. It's disappointing to me that even Google is now initiating probe traffic.
 
 I'm interested to see if the 'probe counters' slowly increase, or whether a larger portion of the network are detected as sources of these probes, as time goes by.
