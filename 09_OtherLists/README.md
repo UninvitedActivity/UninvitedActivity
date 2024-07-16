@@ -1,6 +1,8 @@
 # Other Lists
 
-These are almost entirely based on lists provided from https://iplists.firehol.org because they gather and normalise a whole heap of other useful lists. They've done all the hard work.
+These are almost entirely based on lists provided from https://iplists.firehol.org because they gather and normalise a whole heap of other useful lists. They've done all the hard work. 
+
+This is also a good source of firehol related info: https://github.com/firehol/blocklist-ipsets
 
 ## Base Blocking
 
