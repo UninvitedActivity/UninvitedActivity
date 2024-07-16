@@ -7,7 +7,10 @@ So, for those of you interested in using data here for blocking traffic on your 
 1. https://raw.githubusercontent.com/UninvitedActivity/UninvitedActivity/main/02_InternetScanners/02_ZZInternetScannersSingleList.txt
 2. https://raw.githubusercontent.com/UninvitedActivity/UninvitedActivity/main/03_UninvitedNetworks/03_ZZUninvitedActivityNetworks.txt
 
-The primary thing to be aware of with my lists is that I don't have any expiry dates built in. Yet. However, all of the data is less than 12 months old, with this project having started in October 2023.
+Please be aware that, with using these lists, I don't have any expiry dates built in. Yet. However, all of the data is less than 12 months old, with this project having started in October 2023.
+
+The second most value I've gotten from this project is in discovery of other projects gathering similar lists of malicious IPs and Networks.
+(I'll be updating the Other Lists README page, with a more refined lists of lists, in a few days)
 
 # What Is This?
 This is a set of shell scripts that are intended to detect "uninvited activity" (un-requested and uninvited network traffic) and automatically create and update a (set of) IP address block lists based on this uninvited activity.
