@@ -1,3 +1,14 @@
+# Before The Other Information
+
+The most value I've gotten from this project is the Internet Scanner and Uninvited Networks lists. These lists were only able to be made by gathering all IP addresses probing my network and then analysing the data for patterns.
+
+So, for those of you interested in using data here for blocking traffic on your own networks, the two primary lists to start with would be:
+
+1. https://raw.githubusercontent.com/UninvitedActivity/UninvitedActivity/main/02_InternetScanners/02_ZZInternetScannersSingleList.txt
+2. https://raw.githubusercontent.com/UninvitedActivity/UninvitedActivity/main/03_UninvitedNetworks/03_ZZUninvitedActivityNetworks.txt
+
+The primary thing to be aware of with my lists is that I don't have any expiry dates built in. Yet. However, all of the data is less than 12 months old, with this project having started in October 2023.
+
 # What Is This?
 This is a set of shell scripts that are intended to detect "uninvited activity" (un-requested and uninvited network traffic) and automatically create and update a (set of) IP address block lists based on this uninvited activity.
 
