@@ -8,6 +8,7 @@ This is also a good source of firehol related info: https://github.com/firehol/b
 
 - https://iplists.firehol.org/files/dshield_7d.netset
 - https://iplists.firehol.org/files/firehol_level1.netset
+  - This list contains private IP address ranges, so ensure there are existing firewall rules to allow local traffic as necessary!
 - https://iplists.firehol.org/files/firehol_webclient.netset
 
 ## Recommended Blocking
