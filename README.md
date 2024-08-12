@@ -12,6 +12,11 @@ Please be aware that, with using these lists, I don't have any expiry dates buil
 The second most value I've gotten from this project is in discovery of other projects gathering similar lists of malicious IPs and Networks.
 (I'll be updating the Other Lists README page, with a more refined lists of lists, in a few days)
 
+# Update: 2024-08-12
+I have deleted the set of IP addresses for Rule #4 as there were likely many false positives due to browsed websites (I'm looking at Google, Amazon and Facebook with disdain here) that send probe packets back to the IP addresses that are browsing them, thus setting off Rule #4 (coming from port 443, and sometimes 80, going to, I think, the port the browsing request came from).
+
+I've attempted to block these requests now, so Rule #4 should be a 'cleaner' feed of Uninvited Activity and generate fewer false positives.
+
 # What Is This?
 This is a set of shell scripts that are intended to detect "uninvited activity" (un-requested and uninvited network traffic) and automatically create and update a (set of) IP address block lists based on this uninvited activity.
 
