@@ -16,9 +16,19 @@ Throughout February a bunch of Cloudflare-owned IP addresses were sending out pr
 
 # Exclusions
 
+The following lists are now excluded due to the potential that they were detected as a result of investigative packets coming in due to browsing traffic (I can't find sources of this being a "thing", but I read about it a while back).
+
 ## 1e100.net
 03_1e100Net.txt
 
 These are Google IP addresses which, when blocked, break some Internet connectivity on my home network, so whilst it remains listed here, I'm not currently using it for blocking. It's disappointing to me that even Google is now initiating probe traffic.
 
-I'm interested to see if the 'probe counters' slowly increase, or whether a larger portion of the network are detected as sources of these probes, as time goes by.
+## Cloudflare
+03_CloudflareCom.txt
+
+Sites I host are blocked from receiving any traffic outside of Cloudflare, so I'm excluding Cloudflare from blocking for the time being.
+
+## Google User Content
+03_GoogleUserContent.txt
+
+I'm not sure about this one, but I'm excluding it from blocking for a while to see if the IP address ranges still get listed in the database.
