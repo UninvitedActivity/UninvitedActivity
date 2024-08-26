@@ -22,13 +22,3 @@ The following lists are now excluded due to the potential that they were detecte
 03_1e100Net.txt
 
 These are Google IP addresses which, when blocked, break some Internet connectivity on my home network, so whilst it remains listed here, I'm not currently using it for blocking. It's disappointing to me that even Google is now initiating probe traffic.
-
-## Cloudflare
-03_CloudflareCom.txt
-
-Sites I host are blocked from receiving any traffic outside of Cloudflare, so I'm excluding Cloudflare from blocking for the time being.
-
-## Google User Content
-03_GoogleUserContent.txt
-
-I'm not sure about this one, but I'm excluding it from blocking for a while to see if the IP address ranges still get listed in the database.
