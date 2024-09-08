@@ -20,11 +20,11 @@ This is also a good source of firehol related info: https://github.com/firehol/b
 
 - Firehol lists
   - https://iplists.firehol.org/files/firehol_abusers_1d.netset
-    - info: https://iplists.firehol.org/?ipset=firehol_abusers_1d
+    - Info: https://iplists.firehol.org/?ipset=firehol_abusers_1d
   - https://iplists.firehol.org/files/dshield_30d.netset
-    - info: https://iplists.firehol.org/?ipset=dshield_30d
+    - Info: https://iplists.firehol.org/?ipset=dshield_30d
   - https://iplists.firehol.org/files/firehol_level2.netset
-    -info: https://iplists.firehol.org/?ipset=firehol_level2
+    - Info: https://iplists.firehol.org/?ipset=firehol_level2
 - Uninvited Activity
   - https://raw.githubusercontent.com/UninvitedActivity/UninvitedActivity/main/uninvitedActivity-Rule1.txt
     - Info: https://github.com/UninvitedActivity/UninvitedActivity
@@ -34,7 +34,7 @@ This is also a good source of firehol related info: https://github.com/firehol/b
     - Censys: 398324, 398705, 398722
     - Security Trails: 211607
   - 3rd Party lists:
-    - Info: Description: https://github.com/wdes/security
+    - Info: https://github.com/wdes/security
     - https://security.wdes.eu/scanners/stretchoid.txt
     - https://security.wdes.eu/scanners/binaryedge.txt
   - Uninvited Activity Lists:
@@ -49,7 +49,7 @@ This is also a good source of firehol related info: https://github.com/firehol/b
   - https://iplists.firehol.org/files/cybercrime.ipset
     - Info: https://iplists.firehol.org/?ipset=cybercrime
   - https://iplists.firehol.org/files/firehol_level3.netset
-    -info: https://iplists.firehol.org/?ipset=firehol_level3
+    - Info: https://iplists.firehol.org/?ipset=firehol_level3
     - Note: This has, in the past and possibly presently as well, contained Google's DNS resolver 8.8.8.8, Quad9's DNS resolver 9.9.9.9, Github IP addresses, and various others that are relatively normal internet usage. It's highly likely that exception rules will need to be put in place if using this list. Use this list with care and knowledge.
 - Uninvited Activity lists:
   - https://raw.githubusercontent.com/UninvitedActivity/UninvitedActivity/main/uninvitedActivity-Rule2.txt
