@@ -9,9 +9,9 @@ This is also a good source of firehol related info: https://github.com/firehol/b
 - Firehol lists
   - https://iplists.firehol.org/files/dshield_7d.netset
     - Info: https://iplists.firehol.org/?ipset=dshield_7d
-    - Note: This list contains private IP address ranges, so ensure there are existing firewall rules to allow local traffic as necessary!
   - https://iplists.firehol.org/files/firehol_level1.netset
     - Info: https://iplists.firehol.org/?ipset=firehol_level1
+    - Note: This list contains private IP address ranges, so ensure there are existing firewall rules to allow local traffic as necessary!
   - https://iplists.firehol.org/files/firehol_webclient.netset
     - Info: https://iplists.firehol.org/?ipset=firehol_webclient
 - Krasue malware C&C server: 128.199.226.11
