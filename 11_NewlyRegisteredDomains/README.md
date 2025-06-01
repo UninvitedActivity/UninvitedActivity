@@ -1,5 +1,23 @@
 # Newly (Recently) Registered Domains (NRDs / RRDs)
 
+I am in the process of implementing the script from PeterDaveHello (linked below) to create a set of DNS block lists for Pi-Hole. I will be publishing the raw lists into this (11_NewlyRegisteredDomains) directory, whilst the Pi-Hole compatible lists will be published to the PiHole directory.
+
+This is as yet unimplemented, but my rough plan is:
+
+- Run the script daily to capture thew daily NRDs
+- Populate these into a database with a date stamp
+- Extract a list of all domain names that have been created within certain timeframes:
+  - 7 days
+  - 14 days
+  - 1 month
+  - 3 months
+  - 6 months
+  - 12 months 
+- Publish these to the 11_NewlyRegisteredDomains directory
+- Extract the list of all domain names within the above timeframes, preceding them with 0.0.0.0 to make them Pi-Hole compatible 
+- Publish these to the PiHole directory
+- Setup my Pi-Hole(s) to use the 6 months list
+
 ## Reference / Source Sites
 
 - https://github.com/PeterDaveHello/nrd-list-downloader
