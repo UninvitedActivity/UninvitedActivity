@@ -23,5 +23,7 @@ This was initially implemented on the 1st of June 2025, so it only contains NRDs
 ## Reference / Source Sites
 
 - https://github.com/PeterDaveHello/nrd-list-downloader
+  - The whoisds.com list seems to be limited to 70,000 entries (this is a lot and yet still limited)
 - https://shreshtait.com/blog/2024/02/recently-registered-domains-download/
+  - The weekly list doesn't contain anywhere near the number of domain names as the whoisds.com lists
 - https://github.com/xRuffKez/NRD
