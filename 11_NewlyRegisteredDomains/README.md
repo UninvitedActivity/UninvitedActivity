@@ -4,7 +4,7 @@ I have implemented a process using the script from PeterDaveHello (linked below)
 
 This is the implemented process:
 
-- Run the script daily to capture NRDs for the day
+- Run the script daily to capture NRDs for the day (this also now downloads the weekly NRD list from ShrestaIT - linked to below)
 - Populate these into a database with a date stamp
 - Extract a list of all domain names that have been created within certain timeframes:
   - 7 days
