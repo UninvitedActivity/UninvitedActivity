@@ -20,6 +20,9 @@ This is the implemented process:
 
 This was initially implemented on the 1st of June 2025, so it only contains NRDs listed since that date (which means, at the current time of the 3rd of June, all the lists are going to look identical and it'll take a while until they're all living up to their names).
 
+It should be noted that the default setup of a Pi-Hole updates the ad lists once a week. This is, somewhat at least, in order to make sure that each Pi-Hole instance is a good Internet citizen and isn't causing more internet traffic than necessary. This, however, means that any daily updates to these NRD lists is not integrated into a default Pi-Hole's blocking until up to a week later. This somewhat nullifies the 7-day list, unless the Pi-Hole is reconfigured to update ad lists daily.
+
+
 ## Reference / Source Sites
 
 - https://github.com/PeterDaveHello/nrd-list-downloader
