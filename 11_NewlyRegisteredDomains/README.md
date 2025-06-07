@@ -4,10 +4,9 @@ I have implemented a process using the script from PeterDaveHello (linked below)
 
 This is the implemented process:
 
-- Run the script daily to capture NRDs for the day (this also now downloads the weekly NRD list from ShrestaIT - linked to below)
+- Run the script daily to capture NRDs for the day (this also now downloads the 7-day NRD list from ShrestaIT and the 14-day list from xRuffKez - both of which are linked to below)
 - Populate these into a database with a date stamp
 - Extract a list of all domain names that have been created within certain timeframes:
-  - 7 days
   - 14 days
   - 1 month
   - 3 months
@@ -20,7 +19,7 @@ This is the implemented process:
 
 This was initially implemented on the 1st of June 2025, so it only contains NRDs listed since that date (which means, at the current time of the 3rd of June, all the lists are going to look identical and it'll take a while until they're all living up to their names).
 
-It should be noted that the default setup of a Pi-Hole updates the ad lists once a week. This is, somewhat at least, in order to make sure that each Pi-Hole instance is a good Internet citizen and isn't causing more internet traffic than necessary. This, however, means that any daily updates to these NRD lists is not integrated into a default Pi-Hole's blocking until up to a week later. This somewhat nullifies the 7-day list, unless the Pi-Hole is reconfigured to update ad lists daily.
+It should be noted that the default setup of a Pi-Hole updates the ad lists once a week. This is, somewhat at least, in order to make sure that each Pi-Hole instance is a good Internet citizen and isn't causing more internet traffic than necessary. This, however, means that any daily updates to these NRD lists is not integrated into a default Pi-Hole's blocking until up to a week later.
 
 
 ## Reference / Source Sites
