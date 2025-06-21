@@ -12,6 +12,9 @@ Please be aware that, with using these lists, I don't have any expiry dates buil
 The second most value I've gotten from this project is in discovery of other projects gathering similar lists of malicious IPs and Networks.
 (I'll be updating the Other Lists README page, with a more refined lists of lists, in a few days)
 
+# Update: 2025-0621
+I have limited lists for Rules 2, 3, 4, and 5 to IP addresses that have probed my systems within the last 12 months. This has removed around a combined 46,000 IP addresses from those lists. 
+
 # Update: 2024-08-12
 I have deleted the set of IP addresses for Rule #4 as there were likely many false positives due to browsed websites (I'm looking at Google, Amazon and Facebook with disdain here) that send probe packets back to the IP addresses that are browsing them, thus setting off Rule #4 (coming from port 443, and sometimes 80, going to, I think, the port the browsing request came from).
 
