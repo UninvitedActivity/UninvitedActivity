@@ -1,2 +1,2 @@
 # ovh.com Singapore
-# 51.79.161.0/24
+# 51.79.161.0/24 #This has been commented out as GrpaheneOS uses 51.79.161.36 as one of it's "detectors of Internet access"
