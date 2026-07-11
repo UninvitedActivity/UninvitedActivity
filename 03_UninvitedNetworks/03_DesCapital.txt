@@ -1,0 +1,9 @@
+# https://des.capital
+# Only a small range, but these IP addresses scanned a high percentage of ports from 3 to 40000 on one of my hosts
+
+194.180.49.64
+194.180.49.65
+194.180.49.66
+194.180.49.67
+194.180.49.68
+194.180.49.69

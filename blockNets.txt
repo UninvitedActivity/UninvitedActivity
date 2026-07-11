@@ -1,0 +1,168 @@
+# Censys.io - Internet scanner
+# ----------------------------
+# They make money by probing everyone else's networks and selling what they find.
+# No thanks, I don't want my shit to be searchable on their platform.
+# They thankfully provide a list of the IP ranges they scan from, here:
+# https://support.censys.io/hc/en-us/articles/360043177092-from-faq
+# The data also expires after up to 48 hours, so that's at least something.
+162.142.125.0/24
+167.94.138.0/24
+167.94.145.0/24
+167.94.146.0/24
+167.248.133.0/24
+199.45.154.0/24
+199.45.155.0/24
+# ================
+# ShadowServer.org
+# ----------------
+# These guys are apparently making the internet safer by scanning the entire internet X times a day.
+# Much like the above, profiting from polluting the internet, and selling it to governments and law enforcement.
+# Count me out.
+# I think the bad guys would be easier to spot if 'good guys' weren't also probing my ports.
+# Also, their overt moralising on their website feels to me like either or both of:
+# - Methinks the lady doth protest too much
+# - Undertones of fascism
+# I suspect they're an arm of one intelligence organisation or another. Either way, GTF away from my ports.
+# It's also likely they have a lot more IP address ranges than those listed here.
+184.105.247.192/26
+65.49.1.0/24
+184.105.143.128/26	# According to: https://myip.ms/view/ip_addresses/3093925760/184.105.143.128_184.105.143.255
+184.105.192.1/29	# .2 to .6 are Shadow Server sinkholes (honetpots)
+74.82.47.0/26		# .1 is a Tor exit node, the rest seem to be where they do their scanning from going by the DNS names
+184.105.237.192/26
+66.220.23.112/29
+216.218.135.112/29
+216.218.206.64/26
+64.62.202.64/26
+64.62.197.0/24
+# ===========
+# Exklusiv.de
+# -----------
+# This /24 network has had 18 separate IP addresses detected as sources of Uninvited Activity, 10 of which have been logged over 300 times each.
+# As such, I deem this entire network untrustworthy.
+77.90.185.0/24
+# =================================
+# Fiberexpress.net / CriminalIP.com
+# ---------------------------------
+# This /24 network has had 24 separate IP addresses detected as sources of Uninvited Activity.
+# As such, I deem this entire network untrustworthy.
+94.102.61.0/24
+# ===================
+# Google User Content
+# -------------------
+# This /24 network has had very many IP addresses detected as sources of Uninvited Activity.
+# As such, I deem this entire network untrustworthy.
+35.203.211.0/24
+35.203.210.0/24
+# ====================
+# PaloAltoNetworks.com
+# --------------------
+# This /24 network has had very many IP addresses detected as sources of Uninvited Activity.
+# As such, I deem this entire network untrustworthy.
+205.210.31.0/24
+198.235.24.0/24
+# ========================
+# Internet-Measurement.com
+# ------------------------
+# Yet another internet scanning setup "measuring" services that are publicly exposed. These guys also have a published list of their IP addresses and ranges, here:
+# https://internet-measurement.com/#ips 
+# They also offer a view into their gathered data, here:
+# https://driftnet.io/
+87.236.176.0/24
+193.163.125.0/24
+68.183.53.77/32
+104.248.203.191/32
+104.248.204.195/32
+142.93.191.98/32
+157.245.216.203/32
+165.22.39.64/32
+167.99.209.184/32
+188.166.26.88/32
+206.189.7.178/32
+209.97.152.248/32
+# =========================
+# hkhdc.laws.ms, cloudie.hk
+# -------------------------
+# This /24 network has had very many IP addresses detected as sources of Uninvited Activity.
+# As such, I deem this entire network untrustworthy.
+123.254.109.0/24
+# ==============
+# stretchoid.com
+# --------------
+# The least convincingly innocent internet scanning site / organisation. Nope.
+137.184.255.0/24
+138.68.208.0/26
+# =============================
+# internet-albedo.net, Netscout
+# -----------------------------
+# Another internet scanner: Threat intelligence, Internet Safety Initiative, apparently.
+# They give their IP address range as: 146.88.240.0/23. Blocked.
+146.88.240.0/23
+# ======
+# Rapid7
+# ------
+# Another "internet security" org. Sigh.
+# Data for network ranges to block from here:
+# - https://www.netify.ai/resources/applications/rapid7 
+# - https://opendata.rapid7.com/about/ 
+# The first set of IP address ranges is a bunch that they own for various infrastructure, likely including their websites and services:
+27.0.224.0/22
+38.242.21.0/24
+161.38.59.0/24
+195.95.191.0/24
+199.201.125.0/24
+# This second set is where they scan from (so far as I can tell).
+# The second link above specifically says:
+# "Project Sonar performs its collection activities from AWS EC2 us-west-1, us-west-2 and us-east-1 instances with non-static IP addresses, 
+# and as such cannot be readily allowlisted or blocklisted themselves,
+# however it is sufficient to blocklist or allowlist the scan ranges listed above"
+5.63.151.96/27
+71.6.233.0/24
+88.202.190.128/27
+146.185.25.160/27
+109.123.117.224/27
+# =============
+# IPv4 Superhub
+# -------------
+# Quite a few in this range have hit my servers and abuseipdb has this range from 134 to 253 as being flagged, so the full /24 is getting blocked.
+185.233.19.0/24
+# ==========
+# pfcloud.io
+# ----------
+# 27 ip addresses in this range have hit my servers, and more than that are flagged on abuseipdb, so the /24 is getting blocked
+84.54.51.0/24
+# =======
+# Recyber
+# -------
+# This is an interesting one, I'll just list a few websites from which information was gathered:
+# - https://tools.tracemyip.org/search--isp/recyber.net
+# - https://www.reddit.com/r/firewalla/comments/nsahw6/many_blocks_from_the_recyber_project/
+# - https://isc.sans.edu/diary/Whats+the+deal+with+openportstatscom/26912
+# - https://seclists.org/nanog/2019/Jun/295
+# - https://github.com/Lex1020/ReCyber-Blocklist/blob/main/IPs
+# - https://www.threatstop.com/blog/yet-another-legit-scanner-testing-user-patience
+# - https://viz.greynoise.io/tag/recyber-project?days=1
+89.248.163.0/24
+89.248.165.0/24
+# ==================================================
+# Openportstats, IP Volume Inc., AS204655,  AS202425
+# --------------------------------------------------
+# Seem closely related to Recyber according to the websites listed above
+# This is the biggest and most controversial blocking in this list, and so it's effects are going to be monitored to see if it actually affects anything legitimate
+# AS202425 ranges, from here: https://www.whatismyip.com/asn/202425/
+92.63.196.0/24	# Belgium
+5.8.18.0/24 	# Cyprus
+45.148.144.0/24 # Netherlands, incl. all below
+80.82.64.0/24
+80.82.68.0/23
+80.82.70.0/24
+80.82.76.0/22
+89.248.160.0/21
+89.248.168.0/22
+89.248.172.0/23
+89.248.174.0/24
+93.174.88.0/21
+94.102.48.0/20
+145.249.104.0/22
+# AS204655
+200.85.141.0/24	# Bolivia
